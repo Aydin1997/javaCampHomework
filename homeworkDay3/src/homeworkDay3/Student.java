@@ -6,8 +6,9 @@ public class Student extends User {
 	private String studentId;
 	private String studentPassword;
 	
+	
 	public Student() {
-		
+	// Default Constructor
 	}
 	// Eðer inherit edilen bir sýnýfta ki field'larý kullanmak istiyorsak super içerisine o özellikleri yazmamýz gerekir!
 	// ve unutmadan inherit edilen sýnýfta default constructor oluþturularak super() anahtar kelimesi yazýlýr!!
@@ -21,7 +22,7 @@ public class Student extends User {
 	}
 
 	public Student(String studentCourse, String studentId, String studentPassword) {
-		super();
+//		super();
 		this.studentCourse = studentCourse;
 		this.studentId = studentId;
 		this.studentPassword = studentPassword;

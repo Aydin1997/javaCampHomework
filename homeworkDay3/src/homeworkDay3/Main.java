@@ -4,14 +4,17 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Student student1=new Student("Java","kullaniciAdi1","password1"); // Yapici Constructor Kullanildi.
+		Student student1=new Student();  // Yapici Constructor Kullanildi.
+		student1.setStudentCourse("Java");
+		student1.setStudentId("kullanici");
+		student1.setStudentPassword("password1");
 		student1.setFirstName("Aydýn");
 		student1.setLastName("Þimþek");
 		student1.setId(1);
 		student1.setEmail("simsekaydin01@gmail.com");
 		
 		Student student2=new Student("Ýlkay","Þimþek",2,"simsekilkay01@gmail.com","Python","kullaniciAdi2","password2");
-
+		
 		Student student3=new Student("Eren","Þimþek",3,"simsekeren01@gmail.com","C#","kullaniciAdi3","password3");
 		
 		Instructor instructor1=new Instructor("Engin","Demiroð",1001,"engindemirog@gmail.com",
