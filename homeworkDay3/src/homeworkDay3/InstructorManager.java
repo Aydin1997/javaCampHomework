@@ -1,6 +1,6 @@
 package homeworkDay3;
 
-import java.util.Scanner;
+
 
 
 
